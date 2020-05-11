@@ -12,17 +12,43 @@ namespace CMSMedical.Controllers
         {
             return View();
         }
+        
 
-        public ActionResult About()
+        public ActionResult Consulting()
         {
-            ViewBag.Message = "Your application description page.";
-            return View();
+           
+            return View("Consulting");
         }
 
-        public ActionResult Contact()
+        public ActionResult Blog()
         {
-            ViewBag.Message = "Your contact page.";
-            return View();
+            
+            return View("Blog");
+        }
+        public ActionResult Login()
+        {
+            
+            return View("login");
+        }
+        public ActionResult Manag()
+        {
+            
+            return View("manag");
+        }
+        public ActionResult ProvideAdvice()
+        {
+            
+            return View("ProvideAdvice");
+        }
+        public ActionResult SendResponse()
+        {
+            
+            return View("SendResponse");
+        }
+        public ActionResult SingleBlog()
+        {
+            
+            return View("SingleBlog");
         }
     }
 }
